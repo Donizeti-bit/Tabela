@@ -3,11 +3,23 @@ body {
 }
 
 body {
-        background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente do laranja ao rosa */
-      }
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        image-rendering:auto       
+        }
 
 p{
     text-align: center;
     font-size: 20px;
     color: rgb(83, 81, 81);
+}
+
+input[type="text"] {
+    border: 1px solid blue;
+}
+
+b {
+    text-decoration-color:aquamarine;
+}
+th {
+    text-decoration-color: brown;
 }
